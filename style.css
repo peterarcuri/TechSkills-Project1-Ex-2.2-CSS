@@ -255,6 +255,10 @@ tr {
 
 
 /* Projects Section */
+.projectPics {
+    box-shadow: 4px -4px 4px 4px #010d2d; 
+}
+
 .projectBtn {
     background-color: #00d4ff;
     font-size: 1.4rem; 
