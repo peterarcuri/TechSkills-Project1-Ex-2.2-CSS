@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+      
+
+      <link rel="stylesheet" href="style.css">
+      <title>A Digital CV</title>
+    </head>
+
+  <body>    
+    
+    <!-- Header Section including: Profile Picture, Summary(greeting) -->
+    <div class="container">
+
+      <header> 
+
+        <div>
+          <img id="profilePic" src="images/profilepic2 (1) 2.jpg" alt="profile picture of Peter Arcuri holding a coffee mug">
+        </div>
+
+
+        <div>
+          <h1>Hi! I'm Peter Arcuri</h1>
+          <h4>
+            "Aspiring web developer seeking opportunity to expand my skills while facilitating company growth. Committed to best enhancing the organizational brand."
+          </h4>
+        </div>
+
+      </header>
+
+      <!-- Contact section -->
+
+      <div id="contact">
+        <h3>Email: <a href="mailto:peterarcuri@gmail.com">peterarcuri@gmail.com</a> / Phone: (727) 247-9322</h3>
+        <p id="connect">Let's connect!! Find me on:</p>
+      </div>
+
+      <!-- Links to my Github and Linkedin Pages -->
+
+      <div class="mediaLinks">
+          <a href="https://www.linkedin.com/feed/"><img id="linkedinLogo" src="images/Linkedin Logo.png" alt="Linkedin logo"></a>
+          <a href="https://github.com/peterarcuri"><img id="githubLogo" src="images/Github logo.png" alt="Github logo"></a>
+      </div> 
+
+    <main>
+      <!-- Education Section (Table)-->
+      <div class="educationContainer">
+
+        <section id="education">
+
+          <table>
+            <caption>Education:</caption>
+           
+              <tr>
+                <th colspan="4"><u>Institution</u></th>
+                <th colspan="3"><u>Degree / Certification</u></th>
+                <th colspan="3"><u>Date(s) Attended</u></th>
+              </tr>
+        
+    
+            <tbody>
+              <tr>
+                <td colspan="4">University of South Florida</td>
+                <td colspan="3">Software Engineering Bootcamp</td>
+                <td>(Currently Attending)</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Zero to Mastery Academy</td>
+                <td colspan="3">Web Development Bootcamp</td>
+                <td>(2023 - 2024)</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Angela Yu</td>
+                <td colspan="3">Complete Web Development Bootcamp</td>
+                <td>2024</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Pasco Hernando State College</td>
+                <td colspan="3">Associate in Arts: General Studies</td>
+                <td>2000</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Central Florida Institute</td>
+                <td colspan="3">Associate in Science: Diagnostic Medical Sonography</td>
+                <td>(2007-2008)</td>
+              </tr>
+            </tbody>
+    
+          </table>           
+        </section>
+
+      </div>
+
+
+
+      <!-- Technologies Section (lists) -->
+      <div class="technologyContainer">        
+        <section id="technology">
+
+          <h2>Technologies:</h2>
+
+          <div class="skillsbarContainer">
+
+            <div class="skill-box">
+              <span class="title">HTML</span>
+
+              <div class="skill-bar">
+                <span class="skill-per html">
+                  <span class="tooltip">90%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">CSS</span>
+
+              <div class="skill-bar">
+                <span class="skill-per css">
+                  <span class="tooltip">70%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">Javascript</span>
+
+              <div class="skill-bar">
+                <span class="skill-per javascript">
+                  <span class="tooltip">40%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">NodeJS</span>
+
+              <div class="skill-bar">
+                <span class="skill-per nodejs">
+                  <span class="tooltip">10%</span>
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </section>
+
+      </div>
+
+
+      <!-- Project Section  -->
+      <section id="projects">
+        <h2>Projects:</h2>
+        
+        
+        <div class="aurora">
+          <img src="images/Aurora hotel image.png" alt="Aurora hotel logo snowy moutains and night sky">
+          <p>View the northern lights from a glass igloo</p>
+          <a href="https://peterarcuri.github.io/aurorahotelproject/index.html"><button type="button" class="projectBtn">Aurora Hotel</button></a>
+        </div>
+
+    
+        <div class="tindog">
+          <img src="images/tindogImage.png" alt="Dog image inside an iPhone">
+          <p>A re-creation of Tinder but for K9 companionship</p>
+          <a href="https://peterarcuri.github.io/Tindog/"><button type="button" class="projectBtn">TinDog</button></a>
+        </div>
+       
+        <div class="startup">
+          <img src="images/LandingPageImage.png" alt="Image of a computer laptop">
+          <p>Landing page redirected to an email form.</p>     
+          <a href="https://peterarcuri.github.io/startup-of-the-year/"><button type="button" class="projectBtn">Startup Event of the year</button></a>
+        </div>       
+    
+      </section>
+
+    
+    <!-- Contact Form Section -->
+
+    <div class="contactForm">
+
+      <h2>Contact:</h2>
+
+      <form  action="#">
+  
+        <label for="name">Name:
+          <input type="text" name="name" placeholder="Enter your name" required><br>
+        </label>
+    
+        <label for="email">Email: 
+          <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+        </label>
+    
+        <label for="phone">Phone:
+          <input type="tel" name="phone" id="phone" placeholder="Enter your phone"><br>
+        </label>
+    
+        <label for="organization">Organization:
+          <input type="text" name="name" placeholder="Facebook"><br>
+        </label>
+    
+        <label for="role">Role:
+          <input type="text" name="name" placeholder="Web Developer"><br>
+        </label>
+  
+        <label for="reason for contact">Reason for Contact:
+          <select name="reason for contact">
+            <option value="">--Reason for Contact--</option>
+            <option value="job offers">Job Offers</option>
+            <option value="collaborations">Collaborations</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </label><br><br>
+  
+        <label for="method of contact">--Preferred method of contact--</label><br>
+  
+        <label>
+          <input type="radio" name="method of contact" value="phone"> 📱 Phone 
+        </label>
+  
+         <br>
+        <label>
+          <input type="radio" name="method of contact" value="email"> 📧 Email
+        <br>
+        </label>
+        
+        <label>
+          <input type="radio" name="method of contact" value="text"> 📘 Text
+        <br>
+        </label><br>      
+  
+        <label for="message">Message:
+          <textarea text-align="left" name="message" id="message" cols="50" rows="6" minlength="3" maxlength="250">Please enter your message here</textarea><br>
+        </label><br>
+        <button type="submit" class="projectBtn">Submit</button>
+  
+      </form>  
+
+    </div>
+
+    </main>
+
+  <!-- footer section -->
+
+    <footer><sup>&#169;</sup> 2024 Peter Arcuri (Web Developer)</footer>
+
+    </div>
+
+  </body>
+</html>
