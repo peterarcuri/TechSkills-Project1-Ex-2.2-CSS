@@ -170,6 +170,7 @@ tr {
     margin: 10px 0px;
     padding: 10px 10px;
     border-radius: 7px;
+    box-shadow: 4px -4px 4px 4px #010d2d; 
 }
 
 .skillsbarContainer .skill-box {
